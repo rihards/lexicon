@@ -8,7 +8,7 @@ Should be as simple as:
 
     $ npm i
     $ rollup -c -w
-    $ $ php -S localhost:8080 # feel free to use something else to serve
+    $ php -S localhost:8080 # feel free to use something else to serve
 
 ## Running in production
 

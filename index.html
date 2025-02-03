@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Lexicon Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div id="quiz-container">
+      <div id="score-container">
+        <h3>
+          Correct answers: <span id="score">0</span> / <span id="total">0</span>
+        </h3>
+      </div>
+      <div id="word-container">
+        <h2 id="word">Placeholder</h2>
+        <div id="options-container">
+          <h4>Select the correct definition:</h4>
+          <button class="option"></button>
+          <button class="option"></button>
+          <button class="option"></button>
+          <button class="option"></button>
+        </div>
+      </div>
+      <div id="definition-container" style="display: none">
+        <h2 id="guess-status">Placeholder</h2>
+        <h3 id="definition-word">Placeholder</h3>
+        <p id="definition-definition"></p>
+        <div id="origin-container" style="display: none">
+          <h3>Origin</h3>
+          <p id="definition-origin"></p>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

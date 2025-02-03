@@ -1,0 +1,67 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Helvetica Neue, helvetica, arial, sans-serif;
+  font-weight: 400;
+}
+
+#quiz-container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+#score-container {
+  text-align: center;
+}
+
+#word {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+#options-container {
+  background-color: #fff;
+  color: #000;
+  padding: 40px;
+}
+
+#options-container h4 {
+  margin-top: 0;
+}
+
+.option {
+  background-color: #000;
+  color: #fff;
+  display: block;
+  margin-top: 20px;
+  padding: 10px 14px;
+  border: 1px solid #000;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  transition: background-color 0.03s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+
+.option:hover {
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+
+#definition-container {
+  background-color: #1d1d1d;
+  padding: 40px;
+}
+
+#guess-status {
+  margin-top: 0;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+#definition-word {
+  margin-bottom: 0;
+  font-size: 28px;
+  font-weight: 500;
+}
